@@ -495,7 +495,7 @@ img {
     display: grid;
     grid-gap: 30%;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(/me.jpg);
+    background-image: url(me.jpg);
     background-color: #0c100f;
     background-repeat: no-repeat;
     background-size: auto 400px;
