@@ -46,6 +46,15 @@ h1 {
      font-size: 20px;
 }
 
+ .info-item p {
+     font-family: "Ubuntu Mono";
+     text-indent: 0;
+ }
+
+ .info-item p:before {
+     content: "=>  ";
+ }
+
  h2.hello {
      margin: 0;
      font-family: "Ubuntu Mono";
@@ -53,10 +62,10 @@ h1 {
  }
 
 h2.hello:before {
-    content: "# "
+    content: "> "
 }
 
-h2.hello:after {
+h2.hello:last-of-type:after {
     content: "-";
     margin-left: 3px;
     width: 10px;
@@ -501,6 +510,10 @@ img {
 .lang-logo {
     height: 100px;
     filter: grayscale(30%);
+}
+
+.ruby-logo {
+    height: 140px;
 }
 
 .info-item p {
