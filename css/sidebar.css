@@ -14,12 +14,14 @@ img {
 .sidebar-container {
     background: #292929;
     min-height: 100vh;
+    min-width: 250px;
 }
 
 .sidebar .logo {
     font-family: "Cutive Mono";
     font-size: 77px;
     padding: 20px;
+    text-align: center;
 }
 
 .sidebar img.logo {
@@ -152,6 +154,10 @@ a.image img {
 }
 
 @media only screen and (max-width: 768px) {
+    .sidebar {
+        position: static;
+    }
+
     .sidebar .logo {
         font-size: 40px;
     }
