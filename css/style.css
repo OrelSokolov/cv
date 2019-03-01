@@ -3,7 +3,9 @@
 @import url("news.css");
 @import url('common/variables.css');
 @import url("landing/what-i-am.css");
+@import url("landing/contacts.css");
 @import url('print.css');
+
 
 html, body {
     background: #efefef;
@@ -305,3 +307,4 @@ img {
 .content-container {
     padding: 20px 50px;
 }
+
